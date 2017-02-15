@@ -30,7 +30,7 @@ class Dank:
     async def ts(self, ctx):
         """Thinking suicide."""
         await self.bot.send_file(ctx.message.channel,
-                                 "{}thinking_suicide.png".format(self.base)) 
+                                 "{}thinkingsuicide.png".format(self.base)) 
 
 def setup(bot):
     bot.add_cog(Dank(bot))
