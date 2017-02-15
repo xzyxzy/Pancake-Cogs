@@ -26,6 +26,11 @@ class Dank:
         await self.bot.send_file(ctx.message.channel,
                                  "{}pathetic.png".format(self.base))
 
+    @commands.command(pass_context=True)
+    async def pathetic(self, ctx):
+        """Thinking suicide."""
+        await self.bot.send_file(ctx.message.channel,
+                                 "{}pathetic.png".format(self.base)) 
 
 def setup(bot):
     bot.add_cog(Dank(bot))
