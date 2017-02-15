@@ -27,7 +27,7 @@ class Dank:
                                  "{}pathetic.png".format(self.base))
 
     @commands.command(pass_context=True)
-    async def pathetic(self, ctx):
+    async def ts(self, ctx):
         """Thinking suicide."""
         await self.bot.send_file(ctx.message.channel,
                                  "{}thinking_suicide.png".format(self.base)) 
